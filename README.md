@@ -1,2 +1,2 @@
-# pratikspatil024.github.io
+# pratikpatil024.github.io
 My portfolio.

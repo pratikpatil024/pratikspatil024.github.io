@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Pratik Sanjay Patil</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* Style the header */
+    header {
+      background-color: #666;
+      padding: 30px;
+      text-align: center;
+      font-size: 35px;
+      color: white;
+    }
+
+    /* Create two columns/boxes that floats next to each other */
+    nav {
+      float: left;
+      width: 30%;
+      background: #ccc;
+      padding: 20px;
+    }
+
+    /* Style the list inside the menu */
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    article {
+      float: left;
+      padding: 20px;
+      width: 70%;
+      background-color: #f1f1f1;
+    }
+
+    /* Clear floats after the columns */
+    section::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    /* Style the footer */
+    footer {
+      background-color: #777;
+      padding: 10px;
+      text-align: center;
+      color: white;
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+
+    /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+    @media (max-width: 600px) {
+      nav, article {
+        width: 100%;
+        height: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h2>Hello World!</h2>
+  </header>
+
+  <section>
+    <nav>
+      <img src="./src/PSP.jpg" alt="Profile Picture of Pratik">
+    </nav>
+    
+    <article>
+      <p>Pratik is an incoming Blockchain Engineer at <a href="https://polygon.technology/">Polygon Technology</a> and a final year undergraduate student in the department of <a href="https://www.iitbhilai.ac.in/index.php?pid=dept_cse">Computer Science and Engineering</a> at <a href="https://www.iitbhilai.ac.in/">Indian Institute of Technology, Bhilai</a>. <br> Pratik is passionate about Blockchain and he is involved in the blockchain domain from the last 3+ years.</p>
+
+      <p>Pratik has a demonstrated history of working in the Blockchain domain at high profile organisations and institution:</p>
+      
+      <ul>
+        <li><a href="https://www.cmu.edu/">Carnegie Mellon University</a>
+          <p>
+            Pratik is working on a Blockchain based project named <a href="http://www.cs.cmu.edu/~seth/bolt/">ZUZ</a> under the supervision of <a href="http://www.cs.cmu.edu/~seth/">Professor Seth Goldstein</a> at Carnegie Mellon University (CMU).
+            <br>
+            His work includes creating the architecture of the network and, development of chaincode (smart contract) on Hyperledger Fabric and NEAR Protol.
+            <br>
+            <a href="https://zuzlab.com/">ZUZlab</a>, help individuals and businesses turn their reputation in a network into cash.
+            <br>
+            December 2020 - April 2022.
+          </p>
+        </li>
+  
+        <li><a href="https://www.techmahindra.com/">Tech Mahindra</a>
+          <p>
+            Pratik worked with Tech Mahindra in the Blockchain Competency Business Unit as a Blockchain Intern where he worked in a team to create a platform similar to "IBM Blockchain Platform" that helps developers create a Hyperledger Fabric blockchain network easily.
+            <br>
+            September 2020 - December 2020.
+          </p>
+        </li>
+  
+        <li><a href="https://tnega.tn.gov.in/">Tamil Nadu e-Governance Agency</a></li>
+        <p>
+          Pratik worked with Tamil Nadu e-Governance Agency who looks after the e-Governance of Indian state, Tamil Nadu. During his tenure as a Blockchain Intern, he worked under the supervision of Mr. Ishan Roy, Head of Blockchain to create a decentralized web app to stop website defacement.
+          <br>
+          May 2020 - July 2020.
+        </p>
+      </ul>
+    </article>
+  </section>
+
+  <footer>
+    <h3>Want to get in touch?</h3>
+    <ul>
+      <li><a href="https://www.linkedin.com/in/pratikspatil024/">Linkedin</a></li>
+      <li><a href="https://github.com/pratikpatil024">GitHub</a></li>
+      <li><a href="mailto: pratikspatil024@gmail.com">Gmail</a></li>
+      <li><a href="https://medium.com/@pratikspatil024">Medium</a></li>
+      <li><a href="https://www.instagram.com/pratikspatil024/">Instagram</a></li>
+    </ul>
+  </footer>
+
+</body>
+</html>
